@@ -1,1 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
 
+.w100 {
+ font-weight: 100;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('langbg.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Ensures the background image stays behind other content */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black color */
+    z-index: -1; /* Ensure the overlay stays behind other content */
+}
