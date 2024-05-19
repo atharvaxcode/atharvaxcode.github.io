@@ -30,3 +30,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black color */
     z-index: -1; /* Ensure the overlay stays behind other content */
 }
+
+h1 {
+    align-items = center
+}
